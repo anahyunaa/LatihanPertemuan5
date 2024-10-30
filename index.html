@@ -7,58 +7,57 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <header>
-    
-  </header>
-  
   <main>
     <div class="parent">
         <header>
             <div class="fotologo-container">
                 <div class="logo">
-                    <img src="andrebalispa.jpeg" width="150">
-                </div>
-                <div class="text-Navcontent">
-                  <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#menu">Massage</a></li>
-                        <li><a href="#photos">Gallery</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="#reservation">Book</a></li>
-                    </ul>
-                </nav>
+                    <img src="andrebalispa.png" width="150">
                 </div>
             </div>
         </header>
-        <aside>
-            <img src="spa.jpeg" width="470">
-        </aside>
-        <div class="content">
-            <div>
-                <h1>Welcome to Andre Bali SPA</h1>
-                    <p>
-                        Andre Bali Spa is a company that provides spa and salon services located in Karangasem, <b>Bali</b>. Take your time to stop by Andre Bali SPA when you are in Bali. It is an experience that you will not forget when you return to your country or region.
-        
-                        I and my wife, Supik, opened our first beauty salons in November 2003 in Candidasa, bringing body care and beauty treatments to Villas or hotels in the area. Combining organic spa products and genuine Balinese treatments, we use only the purest and highest quality essentials oils, expertly blended with natural plant oils.
-                    </p>
-                    <audio controls/autoplay/loop>
-                        <source src="Bali World Music, Gus Teja, Morning Happiness.mp3" type="audio/mpeg">
-                        Browser Anda tidak mendukung audio.
-                    </audio>
-              </div>
+
+        <div class="form-container">
+            <aside>
+                <img src="spa.jpeg" width="470">
+            </aside>
+
+            <div class="content">
+                <div>
+                    <h2>Formulir Data Staff SPA</h2>
+                    <form class="Reservasi" id="reservasi">
+                        <label for="name">Nama Lengkap:</label>
+                        <input type="text" id="name" name="name">
+                        <br />
+                        <br />
+                
+                        <label for="phone">Nomor HP:</label>
+                        <input type="number" id="number" name="number">
+                        <br />
+                        <br />
+                
+                        <label for="email">Email aktif:</label>
+                        <input type="email" id="email" name="email">
+                        <br />
+                        <br />
+                
+                        <label for="gender">Gender:</label>
+                        <br />
+                        <input type="radio" id="male" name="gender" value="male"> Laki-laki
+                        <br />
+                        <input type="radio" id="female" name="gender" value="female"> Perempuan
+                        <br />
+                        <br /> 
+    
+                        <input type="submit" value="Submit">
+                        <br />
+                        <br />
+                    </form>
+                    <script src="script.js"></script>
+                </div>
+            </div>
         </div>
-        <footer>
-                <a href="https://www.andrebalispa.com/" target="_blank">Contact Us</a>
-                <br />
-                <a href="https://g.co/kgs/5bsFHZB">Address</a>
-                <br />
-                <q><i>Enjoy our treatment.</i></q>
-        </footer>
     </div>
   </main>
-
-    
-
 </body>
 </html>
